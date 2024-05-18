@@ -13,8 +13,9 @@ var registered_credentialId;
 var registered_publicKeyBytes;
 
 // WARNING: The port is changed when you run the project from here so this must be updated each time
-// It needs to be the "Forwarded address" port
-const relyingPartyOrigin = 'http://localhost:59048';
+// It needs to be the "Forwarded address" port. Altneratively, you can set a LocalForward in your 
+// ~/.ssh/config but that won't show on the "PORTS" tab in the terminal
+const relyingPartyOrigin = 'http://localhost:57000';
 const relyingPartyName = 'localhost testing webauthn';
 const relyingPartyId = 'localhost';
 
